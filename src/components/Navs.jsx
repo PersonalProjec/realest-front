@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { navLinks } from '../constants'
+import { Link } from 'react-router-dom';  
 import { Bars3Icon, MagnifyingGlassCircleIcon, UserIcon } from '@heroicons/react/24/outline'
 
 const Navs = () => {
@@ -11,8 +12,8 @@ const Navs = () => {
   return (
     <section className='px-4 py-4'>
       <div className='flex flex-1 justify-between items-center'>
-        
-          <h1 className='text-2xl max-md:text-2xl font-montserrat text-coral-red font-bold'>REAL<span className='text-2xl text-blue-500 font-bold font-palanquin max-md:text-2xl'>est</span> </h1> 
+          
+          <h1 className='text-2xl max-md:text-2xl font-montserrat text-coral-red font-bold hover:'>REAL<span className='text-2xl text-blue-500 font-bold font-palanquin max-md:text-2xl'>est</span> </h1> 
         
         
           <ul className='flex-1 flex justify-center items-center font-bold text-gray-600 font-palanquin gap-8 max-lg:hidden'>
@@ -46,11 +47,15 @@ const Navs = () => {
              />
             <div className='flex justify-between items-center ' >
               <UserIcon className='w-6 h-5 text-gray-600'/>
-              <a className='text-sm text-gray-600 font-aalanquin '>Sign In</a>
+              <Link to="/login" className="text-sm text-gray-600 font-palanquin">
+                Sign In
+              </Link>
             </div>
-              <button className='bg-blue-400 text-white ax-4 py-2 rounded font-palanquin :hover text-base'>
-                List Property
-              </button>
+              <Link to="/signup">
+                <button className="bg-blue-400 text-white px-6 py-2 rounded font-palanquin hover:text-base">
+                  Sign Up
+                </button>
+              </Link>
           </div>
         
 
