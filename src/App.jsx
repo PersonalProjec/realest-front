@@ -12,7 +12,6 @@ import {
 import Navs from './components/Navs';
 import AuthForm from './components/AuthForm';
 import ForgotPassword from './components/ForgotPassword';
-import Dashoard from './components/dashboard/Dashboard';
 
 function App() {
   return (
@@ -48,9 +47,6 @@ function App() {
                 </section>
                 <section className="bg-black">
                   <Footer />
-                </section>
-                <section>
-                  <Dashoard/>
                 </section>
               </>
             }
