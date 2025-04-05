@@ -1,19 +1,31 @@
 import React from 'react';
+import { ToastContainer } from 'react-toastify';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Hero, FeatureProperties, Services, ClientSay, Dream, Footer } from './sections';
+import {
+  Hero,
+  FeatureProperties,
+  Services,
+  ClientSay,
+  Dream,
+  Footer,
+} from './sections';
 import Navs from './components/Navs';
-import AuthForm from './components/AuthForm'; 
+import AuthForm from './components/AuthForm';
+import ForgotPassword from './components/ForgotPassword';
+import Dashoard from './components/dashboard/Dashboard';
 
 function App() {
   return (
-    <Router>
+    <>
+     <ToastContainer position="top-right" autoClose={3000} />
+     <Router>
       <main className="">
         <Navs />
 
         <Routes>
           <Route path="/login" element={<AuthForm isSignup={false} />} />
           <Route path="/signup" element={<AuthForm isSignup={true} />} />
-          
+          <Route path="/forgot-password" element={<ForgotPassword />} />
 
           <Route
             path="/"
@@ -37,12 +49,16 @@ function App() {
                 <section className="bg-black">
                   <Footer />
                 </section>
+                <section>
+                  <Dashoard/>
+                </section>
               </>
             }
           />
         </Routes>
       </main>
     </Router>
+    </>
   );
 }
 
