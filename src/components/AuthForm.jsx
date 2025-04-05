@@ -14,7 +14,7 @@ const AuthForm = ({ isSignup }) => {
   });
   const [userId, setUserId] = useState(null);
   const [showVerificationModal, setShowVerificationModal] = useState(false);
-  const [code, setCode] = useState('');
+  // const [code, setCode] = useState('');
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
