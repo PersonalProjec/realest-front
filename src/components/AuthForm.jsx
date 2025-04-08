@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import api from '../services/api';
 import { GoogleLogin } from '@react-oauth/google';
 import { toast } from 'react-toastify';
@@ -47,6 +48,7 @@ const AuthForm = ({ isSignup }) => {
         localStorage.setItem('token', data.token);
         toast.success('Login successful!');
         // navigate to dashboard
+        navigate('/dashboard');
       }
     } catch (err) {
       const errorData = err.response?.data;
