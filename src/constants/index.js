@@ -1,4 +1,4 @@
-import { house1, house2, house3, house4, house5, house6 } from "../assets/images";
+import { house1, house2, house3, house4, house5, house6, luxury1, luxury2, luxury3, luxury4, luxury5, luxury6, luxury7, luxury8  } from "../assets/images";
 import { HomeIcon, KeyIcon, UserCircleIcon, ChartBarIcon  } from "../assets/icons"
 
 
@@ -49,41 +49,134 @@ export const PROPERTIES = [
     city: "Evanston",
     
   },
-  {
-    imgURL:house4,
-    title: "Modern Condo with City Views",
-    price: 3500,
-    bedrooms: 1,
-    bathrooms: 1,
-    area: 850,
-    location: "Financial District, San Francisco",
-    city: "San Francisco",
+  // {
+  //   imgURL:house4,
+  //   title: "Modern Condo with City Views",
+  //   price: 3500,
+  //   bedrooms: 1,
+  //   bathrooms: 1,
+  //   area: 850,
+  //   location: "Financial District, San Francisco",
+  //   city: "San Francisco",
     
-  },
-  {
-    imgURL:house5,
-    title: "Spacious Family Townhouse",
-    price: 2800,
-    listingType: "rent",
-    bedrooms: 3,
-    bathrooms: 2.5,
-    area: 1800,
-    location: "Arlington, Virginia",
-    city: "Arlington",
+  // },
+  // {
+  //   imgURL:house5,
+  //   title: "Spacious Family Townhouse",
+  //   price: 2800,
+  //   listingType: "rent",
+  //   bedrooms: 3,
+  //   bathrooms: 2.5,
+  //   area: 1800,
+  //   location: "Arlington, Virginia",
+  //   city: "Arlington",
     
-  },
-  {
-    imgURL:house6,
-    title: "Cozy Studio in Historic District",
-    price: 1200,
-    bedrooms: 0,
-    bathrooms: 1,
-    area: 550,
-    location: "Historic District, Boston",
-    city: "Boston",
+  // },
+  // {
+  //   imgURL:house6,
+  //   title: "Cozy Studio in Historic District",
+  //   price: 1200,
+  //   bedrooms: 0,
+  //   bathrooms: 1,
+  //   area: 550,
+  //   location: "Historic District, Boston",
+  //   city: "Boston",
     
-  }
+  // },
+  // {
+  //   imgURL:luxury1,
+  //   title: "Cozy Studio in Historic District",
+  //   price: 1200,
+  //   bedrooms: 0,
+  //   bathrooms: 1,
+  //   area: 550,
+  //   location: "Historic District, Boston",
+  //   city: "Boston",
+    
+  // },
+  // {
+  //   imgURL:luxury2,
+  //   title: "Cozy Studio in Historic District",
+  //   price: 1200,
+  //   bedrooms: 0,
+  //   bathrooms: 1,
+  //   area: 550,
+  //   location: "Historic District, Boston",
+  //   city: "Boston",
+    
+  // },
+  // {
+  //   imgURL:luxury3,
+  //   title: "Cozy Studio in Historic District",
+  //   price: 1200,
+  //   bedrooms: 0,
+  //   bathrooms: 1,
+  //   area: 550,
+  //   location: "Historic District, Boston",
+  //   city: "Boston",
+    
+  // },
+  // {
+  //   imgURL:luxury4,
+  //   title: "Cozy Studio in Historic District",
+  //   price: 1200,
+  //   bedrooms: 0,
+  //   bathrooms: 1,
+  //   area: 550,
+  //   location: "Historic District, Boston",
+  //   city: "Boston",
+    
+  // },
+  // {
+  //   imgURL:luxury5,
+  //   title: "Cozy Studio in Historic District",
+  //   price: 1200,
+  //   bedrooms: 0,
+  //   bathrooms: 1,
+  //   area: 550,
+  //   location: "Historic District, Boston",
+  //   city: "Boston",
+    
+  // },
+  // {
+  //   imgURL:luxury6,
+  //   title: "Cozy Studio in Historic District",
+  //   price: 1200,
+  //   bedrooms: 0,
+  //   bathrooms: 1,
+  //   area: 550,
+  //   location: "Historic District, Boston",
+  //   city: "Boston",
+    
+  // },
+  // {
+  //   imgURL:luxury7,
+  //   title: "Cozy Studio in Historic District",
+  //   price: 1200,
+  //   bedrooms: 0,
+  //   bathrooms: 1,
+  //   area: 550,
+  //   location: "Historic District, Boston",
+  //   city: "Boston",
+    
+  // },
+  // {
+  //   imgURL:luxury8,
+  //   title: "Cozy Studio in Historic District",
+  //   price: 1200,
+  //   bedrooms: 0,
+  //   bathrooms: 1,
+  //   area: 550,
+  //   location: "Historic District, Boston",
+  //   city: "Boston",
+    
+  // }
+  
+  
 ];
+
+
+
 
 
 export const services = [
@@ -111,4 +204,5 @@ export const services = [
     icon: ChartBarIcon,
     link: "/trends"
   }
+  
 ];
